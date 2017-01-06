@@ -26,7 +26,8 @@ import rx.schedulers.Schedulers;
 
 
 /**
- * Created by JDK on 2016/8/4.
+ * Created by JDK on 2016/8/4.liweibo
+ *
  */
 //这个BaseFragment主要实现了下拉刷新和上拉加载
 public abstract  class BaseFragment extends Fragment implements SwipeRefreshLayout.OnRefreshListener,LoadMoreRecyclerView.LoadMoreListener,RequestData.shProgressinterface {
